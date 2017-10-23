@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#FCE4EC"
+    app:cardElevation="1dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <CheckBox
+       android:id="@+id/cbTodo"
+    android:checked="true"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    />
+    <TextView
+        android:textColor="#E65100"
+        android:id="@+id/tvTodo"
+        android:maxLines="1"
+        android:text="HIIIIIIIIII"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"/>
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/theme"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.assignment4.MainActivity">
+<TextView
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"
+    android:text="Welcome"
+    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="48sp"/>
+   <LinearLayout
+       android:layout_marginRight="10dp"
+       android:layout_marginLeft="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       >
+       <Button
+           android:backgroundTint="#69F0AE"
+           android:id="@+id/btn1"
+           android:layout_width="0dp"
+           android:layout_height="180dp"
+           android:layout_weight="1"
+           android:layout_gravity="left"/>
+       <Button
+           android:backgroundTint="#80D8FF"
+           android:id="@+id/btn2"
+           android:layout_width="0dp"
+           android:layout_height="180dp"
+           android:layout_weight="1"
+           android:layout_marginLeft="10dp"
+           android:layout_gravity="right"/>
+
+       </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="30dp"
+            android:textColor="#ffff"
+            android:textSize="26sp"
+            android:text="POSTS"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="30dp"
+            android:textColor="#ffff"
+            android:textSize="26sp"
+            android:text="ALBUMS"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <Button
+            android:backgroundTint="#B39DDB"
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_weight="1" />
+        <Button
+            android:backgroundTint="#8C9EFF"
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="30dp"
+            android:textColor="#ffff"
+            android:textSize="26sp"
+            android:text="TODOS"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="30dp"
+            android:textColor="#ffff"
+            android:textSize="26sp"
+            android:text="USERS"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+</LinearLayout>
